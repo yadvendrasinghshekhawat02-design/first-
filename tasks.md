@@ -5,4 +5,4 @@ Using `failure_time` (max cycle per engine):
 
 
 
-# Question1. in average, engines fail around cycle ____. The shortest-lived engine failed at cycle ____, the longest at ____.
+# Question1. in average, engines fail around cycle 206. The shortest-lived engine failed at cycle 128, the longest at 362.
