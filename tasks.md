@@ -17,6 +17,7 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
 
 #### Task 2.2
   - In one or two sentences: **What does the shape of the histogram tell you?** (e.g. Are most engines failing in a similar range? Is it symmetric or skewed? Any surprises?)
+  - mostly engine fail between 150 to 250 ,and i am suprisely see after 150 its was get break then continue that's why its skewed and its mean approx 205 to 210 
 
 ---
 
