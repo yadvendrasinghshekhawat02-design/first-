@@ -26,3 +26,17 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - **How many engines** are in the training data? (Hint: each engine has one `failure_time` — so the number of rows in your failure-time table, or `len(failure_time)`, is the number of engines.)
   - **How many columns** does the full training dataframe have? (Use `.shape` or `.columns`.)
   - **Print the first 5 rows** of the training data so you can see what a few rows look like.
+
+---
+
+### Task 4 - Explore sensor data for one engine
+#### Task 4.1
+  - **Pick one engine** (for example, engine_id = 1).
+  - **Filter the data** to show only rows for that engine. (Hint: use something like `df[df['engine_id'] == 1]`)
+  - **How many cycles** did this engine run for? (Count the rows or use `.shape[0]`)
+
+#### Task 4.2
+  - **Make a simple line plot** showing how one sensor changes over time for your chosen engine.
+  - Pick any sensor column you like (for example, `sensor_2` or `sensor_3`).
+  - Put **cycle** on the x-axis and the **sensor value** on the y-axis.
+  - In one sentence: **Does the sensor value go up, down, or stay the same as cycles increase?**
