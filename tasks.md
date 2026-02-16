@@ -69,3 +69,19 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - **Compare the first cycle and last cycle** for each of the 3 sensors.
   - For each sensor, calculate: **last value - first value**
   - In one or two sentences: **Which sensor changed the most? Which one stayed almost the same? Why do you think some sensors change more than others as the engine gets older?**
+
+
+### Task 7 - Calculate Remaining Useful Life (RUL)
+#### Task 7.1
+  - **Pick one engine** and find out when it failed (the max cycle for that engine).
+  - **Create a new column** called `RUL` (Remaining Useful Life) for that engine.
+  - For each row, calculate: **RUL = max_cycle - current_cycle**
+  - Example: If engine failed at cycle 100, then at cycle 95 the RUL = 5 (5 cycles left before failure)
+
+#### Task 7.2
+  - **Make a plot** showing RUL over time for your chosen engine.
+  - Put **cycle** on x-axis and **RUL** on y-axis.
+  - In one sentence: **What pattern do you see? Does RUL go up or down as cycles increase?**
+
+#### Task 7.3
+  - In one or two sentences: **Why is RUL important? If you could predict RUL, how would that help in real life?** (Think: when would you want to replace an engine part?)
