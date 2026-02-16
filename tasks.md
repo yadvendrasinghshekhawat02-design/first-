@@ -59,3 +59,13 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - In one or two sentences: **Do the two engines look similar or different? Does the sensor behave the same way in both?**
   data pattern are same but engine_20 slightly forward but in same pattern
   
+### Task 6 - Find which sensors change the most
+#### Task 6.1
+  - **Pick one engine** (you can use the same engine from Task 4).
+  - **Look at 3 different sensors** for this engine (for example, temperature sensor, pressure sensor, and fan speed).
+  - **Make 3 separate line plots** (or one plot with 3 subplots) showing how each sensor changes over the engine's lifetime.
+
+#### Task 6.2
+  - **Compare the first cycle and last cycle** for each of the 3 sensors.
+  - For each sensor, calculate: **last value - first value**
+  - In one or two sentences: **Which sensor changed the most? Which one stayed almost the same? Why do you think some sensors change more than others as the engine gets older?**
