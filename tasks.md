@@ -40,3 +40,5 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - Pick any sensor column you like (for example, `sensor_2` or `sensor_3`).
   - Put **cycle** on the x-axis and the **sensor value** on the y-axis.
   - In one sentence: **Does the sensor value go up, down, or stay the same as cycles increase?**
+  - .. sensor value goes up ...and i notice the cycles increase, the sensor also increases.
+  - 
