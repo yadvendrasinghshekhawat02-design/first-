@@ -41,4 +41,17 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - Put **cycle** on the x-axis and the **sensor value** on the y-axis.
   - In one sentence: **Does the sensor value go up, down, or stay the same as cycles increase?**
   - .. sensor value goes up ...and i notice the cycles increase, the sensor also increases.
-  - 
+
+---
+
+### Task 5 - Compare two engines
+#### Task 5.1
+  - **Pick two engines** (for example, engine_id = 20 and engine_id = 5). 
+  - **Find out when each engine failed.** (Hint: look at their `failure_time` or count how many cycles each one ran.)
+  - **Which engine failed earlier?**
+
+#### Task 5.2
+  - **Plot the same sensor for both engines on one graph.**
+  - Use the same sensor you picked in Task 4 (fanspeed).
+  - Make two lines: one for each engine. (Hint: use different colors or labels so you can tell them apart.)
+  - In one or two sentences: **Do the two engines look similar or different? Does the sensor behave the same way in both?**
