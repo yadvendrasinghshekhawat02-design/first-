@@ -69,6 +69,7 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - **Compare the first cycle and last cycle** for each of the 3 sensors.
   - For each sensor, calculate: **last value - first value**
   - In one or two sentences: **Which sensor changed the most? Which one stayed almost the same? Why do you think some sensors change more than others as the engine gets older?**
+  (Physical fan speed) (rpm) sensor is changed most (472.9799), 
 
 
 ### Task 7 - Calculate Remaining Useful Life (RUL)
