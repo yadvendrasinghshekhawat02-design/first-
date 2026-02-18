@@ -83,6 +83,8 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - **Make a plot** showing RUL over time for your chosen engine.
   - Put **cycle** on x-axis and **RUL** on y-axis.
   - In one sentence: **What pattern do you see? Does RUL go up or down as cycles increase?**
+  Fron RUL to cycle is going downwards with straight line from 250 to 250
+  
 
 #### Task 7.3
   - In one or two sentences: **Why is RUL important? If you could predict RUL, how would that help in real life?** (Think: when would you want to replace an engine part?)
