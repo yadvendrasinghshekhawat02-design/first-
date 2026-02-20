@@ -89,5 +89,5 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
 #### Task 7.3
   - In one or two sentences: **Why is RUL important? If you could predict RUL, how would that help in real life?** (Think: when would you want to replace an engine part?)
 
- RUL is important because it tells us how much life is left in an engine. By predicting RUL, we can replace parts before failure, which improves safety and avoids unexpected breakdowns.
+ RUL is important because it tells us how much life is left in an engine. By predicting RUL, we can replace and repair parts before failure, which improves safety and avoids unexpected breakdowns.
  
