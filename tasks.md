@@ -84,7 +84,10 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - Put **cycle** on x-axis and **RUL** on y-axis.
   - In one sentence: **What pattern do you see? Does RUL go up or down as cycles increase?**
   Fron RUL to cycle is going downwards with straight line from 250 to 250
-  
+
 
 #### Task 7.3
   - In one or two sentences: **Why is RUL important? If you could predict RUL, how would that help in real life?** (Think: when would you want to replace an engine part?)
+
+ RUL is important because it tells us how much life is left in an engine. By predicting RUL, we can replace parts before failure, which improves safety and avoids unexpected breakdowns.
+ 
