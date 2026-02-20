@@ -90,4 +90,23 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - In one or two sentences: **Why is RUL important? If you could predict RUL, how would that help in real life?** (Think: when would you want to replace an engine part?)
 
  RUL is important because it tells us how much life is left in an engine. By predicting RUL, we can replace and repair parts before failure, which improves safety and avoids unexpected breakdowns.
- 
+
+---
+
+### Task 8 - RUL for all engines and comparing at a fixed cycle
+#### Task 8.1
+  - **Add an RUL column to the full training dataframe** (for every engine, not just one).
+  - Hint: merge or join your `failure_time` (max cycle per engine) with the training data, then compute **RUL = failure_cycle - cycle** for each row.
+  - **Check your work**: for one engine you used in Task 7, confirm that the new RUL column matches what you computed before.
+
+#### Task 8.2
+  - **Pick one cycle number** (e.g. cycle 100). Filter the data so you only have one row per engine at that cycle (each engine should have one RUL value at that cycle).
+  - **Make a histogram** of RUL at that cycle across all engines. Add a vertical line at the mean RUL.
+  - In one or two sentences: **What does the spread of RUL at the same cycle tell you?** (e.g. Why do some engines have more “life left” than others at cycle 100?)
+
+#### Task 8.3
+  - **Pick two engines** that have very different RUL values at your chosen cycle (e.g. one with high RUL and one with low RUL at cycle 100).
+  - **Plot the same sensor** (e.g. the one that changed the most in Task 6) for both engines from cycle 1 up to that cycle, on one graph with two lines.
+  - In one or two sentences: **Do the two engines show different sensor behaviour up to that cycle? How might that relate to why one has more remaining life than the other?**
+
+
