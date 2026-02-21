@@ -104,6 +104,8 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - **Make a histogram** of RUL at that cycle across all engines. Add a vertical line at the mean RUL.
   - In one or two sentences: **What does the spread of RUL at the same cycle tell you?** (e.g. Why do some engines have more “life left” than others at cycle 100?)
 
+   spread shows the engine age ....some engines are healthy  and some engines are close to failure at cycle_90
+
 #### Task 8.3
   - **Pick two engines** that have very different RUL values at your chosen cycle (e.g. one with high RUL and one with low RUL at cycle 100).
   - **Plot the same sensor** (e.g. the one that changed the most in Task 6) for both engines from cycle 1 up to that cycle, on one graph with two lines.
