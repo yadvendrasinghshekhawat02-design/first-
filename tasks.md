@@ -112,3 +112,6 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - In one or two sentences: **Do the two engines show different sensor behaviour up to that cycle? How might that relate to why one has more remaining life than the other?**
 
 
+  both engine fluctuate ups and down....the low RUL engines show unstable pattern and sudden dorps and high RUL engines shows more stable pattern  
+
+
