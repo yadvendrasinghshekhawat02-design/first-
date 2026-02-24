@@ -115,3 +115,13 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   both engine fluctuate ups and down....the low RUL engines show unstable pattern and sudden dorps and high RUL engines shows more stable pattern  
 
 
+
+### Task 9 - Sensor vs RUL at a fixed cycle
+#### Task 9.1
+  - Use the **same fixed cycle** you used in Task 8 (e.g. cycle 90). Filter so you have one row per engine at that cycle (same as Task 8.2).
+  - **Make a scatter plot**: x = one sensor value at that cycle (e.g. the sensor that changed the most in Task 6, or Physical fan speed), y = **RUL** at that cycle. Each point is one engine.
+
+#### Task 9.2
+  - In one or two sentences: **Do you see any pattern?** (e.g. When the sensor is higher, is RUL usually higher or lower? Could we use this sensor to guess how much life an engine has left?)  
+
+
