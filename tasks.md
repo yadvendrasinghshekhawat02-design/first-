@@ -124,4 +124,4 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
 #### Task 9.2
   - In one or two sentences: **Do you see any pattern?** (e.g. When the sensor is higher, is RUL usually higher or lower? Could we use this sensor to guess how much life an engine has left?)  
 
-
+   From 2000 to 2200, the RUL at cycle 90 is low. At around 2300, the RUL at cycle 90 is higher.
