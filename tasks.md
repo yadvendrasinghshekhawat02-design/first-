@@ -125,3 +125,25 @@ Using the same `failure_time` (max cycle per engine) from Task 1:
   - In one or two sentences: **Do you see any pattern?** (e.g. When the sensor is higher, is RUL usually higher or lower? Could we use this sensor to guess how much life an engine has left?)  
 
   I , I don't see pattern......From 2000 to 2200, the RUL at cycle 90 is low. At around 2300, the RUL at cycle 90 is higher.
+
+---
+
+### Task 10 - RUL at two different cycles
+#### Task 10.1
+  - **Pick two cycle numbers** (e.g. cycle 50 and cycle 150, or cycle 90 and cycle 200). For each cycle, filter the data so you have one row per engine at that cycle, with that engine’s RUL.
+  - **Make two histograms** of RUL: one for the first cycle, one for the second. You can put them side by side (e.g. two subplots) or in the same figure with different colors.
+
+#### Task 10.2
+  - In one or two sentences: **How does the distribution of RUL change from the earlier cycle to the later cycle?** (e.g. Does the spread get wider or narrower? What does that tell you about how “remaining life” behaves as engines age?)
+
+---
+
+### Task 11 - Which sensor best predicts RUL? (harder)
+#### Task 11.1
+  - Use the **same fixed cycle** as in Task 8 (e.g. cycle 90). Filter to one row per engine with RUL and all sensor columns.
+  - **For each of several sensors** (e.g. 5–8 sensors of your choice, or all of them), compute the **correlation** between that sensor’s value and RUL at that cycle. (Hint: in pandas you can use `.corr()` on a dataframe that has RUL and the sensor columns, or compute one correlation at a time.)
+  - **Make a bar chart** (or horizontal bar chart) showing the correlation of each sensor with RUL. Use the absolute value of the correlation if you want to see “strength” regardless of direction.
+
+#### Task 11.2
+  - **Which sensor has the strongest correlation with RUL?** Is the correlation positive or negative? In one or two sentences: **What does that mean in plain language?** (e.g. “When this sensor is higher, engines tend to have more/less remaining life.”)
+  - In one sentence: **If you could use only one sensor to predict how much life an engine has left at this cycle, which would you pick and why?**
